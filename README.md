@@ -1,8 +1,7 @@
 # Hand-gesture-recognition
 
 
-The project uses feature learning for recognizing hand gestures.
-
+The project uses AlexNet as a feature extractor to learn features, which is used to recognise hand gestures.
 ## Dataset
 The [Hand Gesture Recognition Database](https://www.kaggle.com/gti-upm/leapgestrecog) can be found at Kaggle. It contains ~20,000 images in various hand poses.
 
