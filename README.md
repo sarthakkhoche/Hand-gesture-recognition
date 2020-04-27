@@ -11,6 +11,11 @@ The [Hand Gesture Recognition Database](https://www.kaggle.com/gti-upm/leapgestr
 It uses AlexNet, a CNN which was pretrained on the ImageNet database. The last layer was removed to extract the features, which can be further used for training.
 
 ## Model Training
-The features can be trained on any classic machine learning model, like KNN, Random Forest, etc.
+The features can be trained on any classic machine learning model, like KNN, Naive Bayes, etc.
 
-The best result was found on LinearSVC with an accuracy of 95.67%
+The result are as follows:
+| Model        | Accuracy           |
+| ------------- |:-------------:|
+| LinearSVC      | 95.67%|
+| KNN with 10 neighbors      | 95.34%      |
+| GaussianNB      |   80.67%    |
